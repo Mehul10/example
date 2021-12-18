@@ -42,6 +42,9 @@ Repository- A folder (Project or directory)
 ### How to use git?
 1) Clone
 2) Initialize
+```
+git init
+```
 3) Log
 
     - log shows all the commits made to a repository (oldest first)
