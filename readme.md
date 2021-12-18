@@ -68,11 +68,39 @@ git log     //shows the history of the repository
 
 ## Github
 
-1) Create new repo on github
+1) Create new repo on github, push, commit
 ``` 
 git init
-git remote add origin https://github.com/Mehul10/example
+git remote add origin https://github.com/Mehul10/example        //adds a new remote for this repo
+git add
+git commit -m "first commit"
+git push origin master      //pushes to origin that is the repo and pushes to the master branch
+
 ```
+2) Clone a repository
+
+github-repo/abc
+
+Clone it into my github account
+
+Mehul10/abc
+```
+Go to the repo and click fork
+```
+Clone the forked repo into your PC :-
+```
+git clone [url]
+```
+
+You don't need to git remote add origin as when you clone the origin is of course all ready added, you need to push to the repo simply.
+
+Now you can create a pull request to the owner of the original repo to add you changes to the original repo.
+
+It is the same as the merging of the branches.
+
+The admin will then merge the pull request if he thinks everything is okay.
+
+## Google Summer of Code (GSOC)
  
     
 
